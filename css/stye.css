@@ -13,6 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.7;
   font-size: 14px;
+  background: #225082;
 }
 
 a {
@@ -36,30 +37,27 @@ img {
 /* ========================================================= */
 
 /* HOME STAR */
-.home {
-  background: url(../images/QN-1.jpg);
-  background-attachment: fixed;
-  background-blend-mode: hard-light;
-  background-size: cover;
-  padding: 100px;
-  -webkit-display: flex;
-  display: flex;
-  height: 100vh;
-  
-  
+.home .page-home::before {
+  content: "";
+  display: block;
+  position: relative;
+  padding-top: 50%;
+  /* background-color: red; */
 }
-.home .page-home {
+.page-home .page-home-img {
   position: absolute;
-  top: 40px;
-  left: 60px;
-  right: 60px;
-  bottom: 10px;
-  background: url(../images/QN-1.jpg);
-  align-items: center;
-  background-size: cover;
-
-  -webkit-display: flex;
-  display: flex;
-  flex-direction: column;
+  top: 0px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.page-home .page-home-text {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
 }
 /* HOME END */
