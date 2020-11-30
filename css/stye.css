@@ -1,0 +1,65 @@
+/* START RESET CSS*/
+
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a,
+p,
+span,
+i,
+img {
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+
+/* END RESET CSS*/
+
+/* ========================================================= */
+
+/* HOME STAR */
+.home {
+  background: url(../images/QN-1.jpg);
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+  background-size: cover;
+  padding: 100px;
+  -webkit-display: flex;
+  display: flex;
+  height: 100vh;
+  
+  
+}
+.home .page-home {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  right: 60px;
+  bottom: 10px;
+  background: url(../images/QN-1.jpg);
+  align-items: center;
+  background-size: cover;
+
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: column;
+}
+/* HOME END */
