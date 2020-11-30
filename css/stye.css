@@ -13,7 +13,6 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.7;
   font-size: 14px;
-  background: #225082;
 }
 
 a {
@@ -63,7 +62,7 @@ img {
   text-transform: uppercase;
 }
 .page-home .page-home-text h2 {
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 60px;
 }
 .page-home .page-home-text span {
@@ -74,6 +73,7 @@ img {
   position: absolute;
   bottom: 15%;
   margin-left: 15%;
+  
 }
 .page-home .countdown div {
   position: relative;
