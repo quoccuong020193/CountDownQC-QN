@@ -72,13 +72,42 @@ img {
 }
 .page-home .countdown {
   position: absolute;
-  display: flex;
-  bottom: 50px;
-  width: 100%;
-  text-align: center;
+  bottom: 15%;
+  margin-left: 15%;
 }
 .page-home .countdown div {
-  margin-left: 30px;
- 
+  position: relative;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 50px;
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.page-home .countdown div::before {
+  content: "";
+  position: absolute;
+  background-color: #225082;
+  bottom: -10px;
+  width: 100%;
+  height: 35px;
+  left: 0;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 35px;
+}
+.page-home .countdown #day:before {
+  content: "Days";
+}
+.page-home .countdown #hour:before {
+  content: "Hours";
+}
+.page-home .countdown #minute:before {
+  content: "Minutes";
+}
+.page-home .countdown #second:before {
+  content: "Seconds";
 }
 /* HOME END */
