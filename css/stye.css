@@ -35,8 +35,9 @@ img {
 /* ========================================================= */
 
 /* HOME STAR */
-.home .page-home {
+.home{
   position: relative;
+  background-color: blue;
 }
 .home .page-home::before {
   content: "";
@@ -52,6 +53,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-color: yellowgreen;
 }
 .page-home .page-home-text {
   position: absolute;
