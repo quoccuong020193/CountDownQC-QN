@@ -21,82 +21,10 @@
   }
 }
 @media only screen and (max-width: 567px) {
-  .home .page-home::before {
-    padding-top: 100%;
-  }
   .page-home .page-home-text {
-    display: none;
-  }
-  .page-home .page-home-text h2 {
-    font-size: 10px;
-    margin-top: 5px;
-  }
-  .page-home .page-home-text span {
-    font-weight: 200;
+    transform: translateY(100%);
   }
   .page-home .countdown {
-    position: block;
-  }
-  .text-center {
-    display: block;
-  }
-  .text-center .page-home-text {
-    top: 0;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .text-center .page-home-text h2 {
-    font-size: 15px;
-    margin-top: 60px;
-  }
-  .text-center .page-home-text span {
-    display: block;
-    font-weight: 400;
-  }
-  .page-home .countdown {
-    display: none;
-  }
-  .footer {
-    padding-top: 50px;
-  }
-  .footer .countdown {
-    margin-left: 7%;
-  }
-  .footer .countdown div {
-    margin: 20px 0px;
-    position: relative;
-    font-size: 10px;
-    font-weight: 500;
-    margin-left: 50px;
-    background-color: #225082;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-  }
-  .footer .countdown div::before {
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    bottom: -10px;
-    width: 100%;
-    height: 35px;
-    left: 0;
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 35px;
-  }
-  .footer .countdown #day:before {
-    content: "Days";
-  }
-  .footer .countdown #hour:before {
-    content: "Hours";
-  }
-  .footer .countdown #minute:before {
-    content: "Minutes";
-  }
-  .footer .countdown #second:before {
-    content: "Seconds";
+    bottom: 0px;
   }
 }
