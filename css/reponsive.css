@@ -16,7 +16,10 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .footer {
+  .page-home .page-home-text {
+    transform: translateY(100%);
+  }
+  .page-home .countdown {
     display: none;
   }
 }
@@ -28,6 +31,5 @@
     display: none;
   }
   .page-home .audio {
-    background-color: ;
   }
 }

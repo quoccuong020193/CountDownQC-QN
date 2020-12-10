@@ -12,6 +12,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.7;
   font-size: 14px;
+  max-width: 1170px;
 }
 
 a {
@@ -35,7 +36,7 @@ img {
 /* ========================================================= */
 
 /* HOME STAR */
-.home{
+.home .page-home{
   position: relative;
   background-color: blue;
 }
